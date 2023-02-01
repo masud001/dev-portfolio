@@ -1,37 +1,19 @@
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
+import Footer from '../../components/Footer/Footer';
+import Header from '../../components/Header/Header';
 
 const LayoutPage = () => {
 	return (
-		<div>
-			<header>
-				<h1>header</h1>
-				<nav>
-					<ul>
-						<li>
-							<Link to='/'>home</Link>
-						</li>
-						<li>
-							<Link to='works'>works</Link>
-						</li>
-						<li>
-							<Link to='about'>about-me</Link>
-						</li>
-						<li>
-							<Link to='contact'>contacts</Link>
-						</li>
-					</ul>
-				</nav>
-			</header>
-			<hr />
+		<React.Fragment>
+			<Header />
+
 			<main>
 				<Outlet />
 			</main>
-			<hr />
-			<footer>
-				<h1>footer</h1>
-			</footer>
-		</div>
+
+			<Footer />
+		</React.Fragment>
 	);
 };
 

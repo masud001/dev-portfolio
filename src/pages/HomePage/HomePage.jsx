@@ -2,15 +2,27 @@ import React from 'react';
 
 const HomePage = () => {
 	return (
-		<div>
+		<section>
 			<h1>home page</h1>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, qui veniam,
-				iste voluptatem perferendis numquam aperiam hic tempora, nihil id nemo dolorum
-				deserunt recusandae vero distinctio ab animi eius. Excepturi qui asperiores, dolorum
-				obcaecati tenetur laborum cumque sed voluptatum itaque.
-			</p>
-		</div>
+			<section>
+				<h1>hero section</h1>
+			</section>
+			<section>
+				<h1>quote section</h1>
+			</section>
+			<section>
+				<h1>project section</h1>
+			</section>
+			<section>
+				<h1>skill section</h1>
+			</section>
+			<section>
+				<h1>about me section</h1>
+			</section>
+			<section>
+				<h1>contact section</h1>
+			</section>
+		</section>
 	);
 };
 

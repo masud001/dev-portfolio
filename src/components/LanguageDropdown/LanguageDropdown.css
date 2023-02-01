@@ -1,0 +1,36 @@
+.lang_navigation {
+    position: relative;
+    cursor: pointer;
+    margin-left: 2rem;
+}
+.lang_navigation button{
+    background-color: transparent;
+    text-transform: uppercase;
+    border: 0;
+    color: var(--gray-color);
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.lang_navigation ul{
+    position: absolute;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--gray-color);
+    padding: .3rem;
+    
+}
+.lang_navigation ul li{
+    text-transform: uppercase;
+    color: var(--gray-color);
+    font-size: 1rem;
+    
+}
+
+.lang_navigation-arrow svg{
+    position: relative;
+    transform: rotate(180deg);
+}
+.lang_navigation button:hover,.lang_navigation ul li:hover {
+    color: var(--white-color);
+}
