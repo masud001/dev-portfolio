@@ -7,11 +7,9 @@ const LayoutPage = () => {
 	return (
 		<React.Fragment>
 			<Header />
-
 			<main>
 				<Outlet />
 			</main>
-
 			<Footer />
 		</React.Fragment>
 	);

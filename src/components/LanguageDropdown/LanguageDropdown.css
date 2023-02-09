@@ -19,14 +19,11 @@
     border-color: var(--gray-color);
     padding: .3rem;
     background-color: var(--theme-color);
-    
 }
 .lang_navigation ul li{
     text-transform: uppercase;
     color: var(--gray-color);
     font-size: 1rem;
-
-    
 }
 
 .lang_navigation-arrow svg{
@@ -50,6 +47,12 @@
 .lang_navigation {
         margin-left: 0rem;
     }
+.lang_navigation ul li {
+    font-size: 2rem;
+}
+.lang_navigation button {
+    font-size: 2rem;
+}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

@@ -38,6 +38,9 @@
 .header_navigation {
     margin-left: 0;
 }
+.navigation_link{
+    font-size: 2rem;
+}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
