@@ -33,7 +33,7 @@ const Header = () => {
 			{/* navbar section */}
 			{isVisible && (
 				<div className='navigation_menu'>
-					<Navigation />
+					<Navigation isVisible={setIsVisible} setIsVisible={setIsVisible} />
 					<LanguageDropdown />
 				</div>
 			)}
