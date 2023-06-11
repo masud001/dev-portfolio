@@ -1,12 +1,14 @@
 import React from 'react';
+import Hero from '../../components/Hero/Hero';
 
 const HomePage = () => {
 	return (
-		<section>
-			<h1>home page</h1>
-			<section>
-				<h1>hero section</h1>
-			</section>
+		<>
+			{/* hero section for home page START
+			==================================== */}
+			<Hero />
+			{/* hero section for home page END
+			==================================== */}
 			<section>
 				<h1>quote section</h1>
 			</section>
@@ -22,7 +24,7 @@ const HomePage = () => {
 			<section>
 				<h1>contact section</h1>
 			</section>
-		</section>
+		</>
 	);
 };
 

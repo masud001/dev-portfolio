@@ -20,6 +20,8 @@
 .navigation_link.active{
     color: var(--white-color);
 }
+
+
 /* Extra small devices (phones,320px ) */
 @media only screen and (max-width: 320px) {
     

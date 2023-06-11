@@ -11,11 +11,12 @@ const Header = () => {
 
 	useEffect(() => {
 		const handleResize = () => {
-			if (window.innerWidth >= 768) {
+			if (window.innerWidth > 768) {
 				setIsVisible(true);
 			} else {
 				setIsVisible(false);
 			}
+			console.log(window.innerWidth)
 		};
 
 		window.addEventListener('resize', handleResize);
