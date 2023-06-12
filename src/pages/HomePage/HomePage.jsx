@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero from '../../components/Hero/Hero';
+import Quote from '../../components/Quote/Quote';
 
 const HomePage = () => {
 	return (
@@ -10,7 +11,7 @@ const HomePage = () => {
 			{/* hero section for home page END
 			==================================== */}
 			<section>
-				<h1>quote section</h1>
+				<Quote />
 			</section>
 			<section>
 				<h1>project section</h1>

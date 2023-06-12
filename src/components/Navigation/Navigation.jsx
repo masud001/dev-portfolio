@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navigation.css';
 
-const Navigation = ({ isVisible, setIsVisible }) => {
+const Navigation = () => {
 	const navigationItems = [
 		{ item: 'home', link: '/' },
 		{ item: 'works', link: 'works' },
@@ -12,7 +12,7 @@ const Navigation = ({ isVisible, setIsVisible }) => {
 	const item = navigationItems.map((item, index) => {
 		return (
 			<li key={index} className='navigation_item'>
-				<NavLink to={item.link} className='navigation_link' onClick={() => setIsVisible(!isVisible)}>
+				<NavLink to={item.link} className='navigation_link'>
 					<span>#</span>
 					{item.item}
 				</NavLink>

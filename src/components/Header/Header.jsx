@@ -16,12 +16,9 @@ const Header = () => {
 			} else {
 				setIsVisible(false);
 			}
-			console.log(window.innerWidth)
 		};
-
 		window.addEventListener('resize', handleResize);
 		handleResize();
-
 		return () => {
 			window.removeEventListener('resize', handleResize);
 		};
@@ -33,7 +30,7 @@ const Header = () => {
 			{/* navbar section */}
 			{isVisible && (
 				<div className='navigation_menu'>
-					<Navigation isVisible={setIsVisible} setIsVisible={setIsVisible} />
+					<Navigation />
 					<LanguageDropdown />
 				</div>
 			)}
