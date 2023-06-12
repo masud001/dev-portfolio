@@ -1,11 +1,14 @@
+.blockquote_section-wrapper{
+    margin: 2.6rem 0;
+}
 .blockquote_section{
     width: 80%;
     margin: 0 auto;
+    /* overflow-y: hidden; */
     /* text-align: center; */
 }
 .blockquote_content {
     position: relative;
-    width: 50%;
     margin: 0 auto;
 }
 .blockquote_content p{
@@ -27,7 +30,7 @@
 }
 .quote_icon-left{
     position: absolute;
-    left: 7%;
+    left: 10%;
     top: 0%;
     transform: translate(-50%, -50%);
     background-color: var(--theme-color);
@@ -58,3 +61,46 @@
     transition: color 0.5s;
     color: var(--primary-color);
 }
+
+
+/* Extra small devices (phones,320px ) */
+@media only screen and (max-width: 320px) {
+   .blockquote_content{
+    width: 100%;
+   }
+}
+
+@media only screen and (min-width: 320px) {
+    .blockquote_content {
+            width: 100%;
+        }
+
+}
+
+@media only screen and (min-width: 480px) {
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (min-width: 769px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .blockquote_content {
+            width: 50%;
+        }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

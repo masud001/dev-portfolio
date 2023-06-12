@@ -10,9 +10,13 @@ const HomePage = () => {
 			<Hero />
 			{/* hero section for home page END
 			==================================== */}
-			<section>
-				<Quote />
-			</section>
+
+			{/* Quote section START 
+			======================= */}
+			<Quote />
+			{/* Quote section END 
+			======================= */}
+
 			<section>
 				<h1>project section</h1>
 			</section>

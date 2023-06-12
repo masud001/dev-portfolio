@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './quote.css'
+import 'animate.css'
 import QuoteData from '../../data/quote'
 import { ReactComponent as QuoteIcon } from './quote-left.svg'
 const Quote = () => {
@@ -22,7 +23,7 @@ const Quote = () => {
     useEffect(() => {
         const timeout = setTimeout(() => {
             setIsIncrementing(false);
-        }, 500);
+        }, 1000);
         // Transition duration (milliseconds)
 
         return () => {
@@ -31,18 +32,24 @@ const Quote = () => {
     }, [activeQuote]);
 
     return (
-        <div className='blockquote_section'>
-            <div className="blockquote_content">
-                <span className='quote_icon-left'>
-                    <QuoteIcon />
-                </span>
-                <span className='quote_icon-right'>
-                    <QuoteIcon />
-                </span>
-                <p className={isIncrementing ? 'increment' : ''}>{QuoteData[activeQuote].quote}</p>
-                <h6 className={isIncrementing ? 'increment' : ''}>- {QuoteData[activeQuote].author}</h6>
-            </div>
-        </div>
+        <section className="blockquote_section-wrapper">
+            <section className='blockquote_section'>
+                <div className="blockquote_content">
+                    <span className='quote_icon-left'>
+                        <QuoteIcon />
+                    </span>
+                    <span className='quote_icon-right'>
+                        <QuoteIcon />
+                    </span>
+                    <p >
+                        <span className={isIncrementing ? 'increment animate__animated  animate__fadeInUp' : ''}>{QuoteData[activeQuote].quote}</span>
+                    </p>
+                    <h6 >
+                        <span className={isIncrementing ? 'increment animate__animated  animate__fadeInUp' : ''}>{QuoteData[activeQuote].author}</span>
+                    </h6>
+                </div>
+            </section>
+        </section>
     )
 }
 
