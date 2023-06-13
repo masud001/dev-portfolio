@@ -2,6 +2,8 @@ import React from 'react';
 import Hero from '../../components/Hero/Hero';
 import Quote from '../../components/Quote/Quote';
 import SectionHeading from '../../components/SectionHeading/SectionHeading';
+import Card from '../../components/Card/Card';
+import Projects from '../../components/Projects/Projects';
 
 const HomePage = () => {
 	return (
@@ -17,10 +19,13 @@ const HomePage = () => {
 			<Quote />
 			{/* Quote section END 
 			======================= */}
+			{/* projects section START 
+			=========================*/}
+			<Projects />
+			{/* projects section END
+			=========================*/}
 
-			<section>
-				<SectionHeading />
-			</section>
+
 			<section>
 				<h1>skill section</h1>
 			</section>
