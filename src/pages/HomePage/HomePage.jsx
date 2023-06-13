@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from '../../components/Hero/Hero';
 import Quote from '../../components/Quote/Quote';
+import SectionHeading from '../../components/SectionHeading/SectionHeading';
 
 const HomePage = () => {
 	return (
@@ -18,7 +19,7 @@ const HomePage = () => {
 			======================= */}
 
 			<section>
-				<h1>project section</h1>
+				<SectionHeading />
 			</section>
 			<section>
 				<h1>skill section</h1>
