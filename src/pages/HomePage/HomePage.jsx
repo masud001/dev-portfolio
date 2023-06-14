@@ -1,11 +1,11 @@
 import React from 'react';
 import Hero from '../../components/Hero/Hero';
 import Quote from '../../components/Quote/Quote';
-import SectionHeading from '../../components/SectionHeading/SectionHeading';
-import Card from '../../components/Card/Card';
 import Projects from '../../components/Projects/Projects';
+import Skills from '../../components/Skills/Skills';
 
 const HomePage = () => {
+
 	return (
 		<>
 			{/* hero section for home page START
@@ -28,6 +28,7 @@ const HomePage = () => {
 
 			<section>
 				<h1>skill section</h1>
+				<Skills />
 			</section>
 			<section>
 				<h1>about me section</h1>
