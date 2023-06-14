@@ -5,7 +5,7 @@ import Card from '../Card/Card'
 import projectsData from '../../data/projects'
 
 const Projects = () => {
-    const data = projectsData.slice(0, 5);
+    const data = projectsData.slice(0, 3);
     return (
         <section className='project__wrapper'>
             <SectionHeading title="projects" viewLink={true} url="https://example.com" />

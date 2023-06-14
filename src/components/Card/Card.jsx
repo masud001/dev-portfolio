@@ -12,11 +12,10 @@ const Card = (
         links = []
     }
 ) => {
-    console.log("🚀 ~ file: Card.jsx:15 ~ links:", links);
+
     const btn = links.map((btn, index) => <Button key={index} title={btn.title} isIcon={btn.isIcon} url={btn.btnLink} icon="~~>" />)
     const tags = tagLists.map((tag, index) => <span key={index}>{tag}</span>)
 
-    // console.log("🚀 ~ file: Card.jsx:7 ~ Card ~ tags:", tags);
     return (
         <div className='card__wrapper'>
             <div className="card_thum">
@@ -30,7 +29,6 @@ const Card = (
                 <p className='card_description'>{description}</p>
                 <div className="card__buttons">
                     {btn && btn}
-                    {/* <Button title="github" isIcon={true} icon="~~>" /> */}
                 </div>
             </div>
         </div>
