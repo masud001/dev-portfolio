@@ -24,12 +24,11 @@ const HomePage = () => {
 			<Projects />
 			{/* projects section END
 			=========================*/}
-
-
-			<section>
-				<h1>skill section</h1>
-				<Skills />
-			</section>
+			{/* skills section START 
+			======================== */}
+			<Skills />
+			{/* skills section END 
+			======================== */}
 			<section>
 				<h1>about me section</h1>
 			</section>
