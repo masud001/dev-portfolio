@@ -1,26 +1,34 @@
 const skills = [
 	{
-		title: 'language-1',
+		title: 'language-01',
 		stack: ['JavaScript', 'Html', 'css', 'React.js'],
 	},
 	{
-		title: 'devtools-2',
+		title: 'devtools-02',
 		stack: ['JavaScript', 'Html', 'css'],
 	},
 	{
-		title: 'language-3',
+		title: 'language-03',
 		stack: ['JavaScript', 'Html', 'css', 'JavaScript', 'Html', 'css'],
 	},
 	{
-		title: 'language-4',
+		title: 'language-04',
 		stack: ['JavaScript', 'Html', 'css'],
 	},
 	{
-		title: 'language-5',
+		title: 'language-05',
 		stack: ['JavaScript', 'Html', 'css'],
 	},
 	{
-		title: 'language',
+		title: 'language-06',
+		stack: ['JavaScript', 'Html', 'css'],
+	},
+	{
+		title: 'language-07',
+		stack: ['JavaScript', 'Html', 'css'],
+	},
+	{
+		title: 'language-08',
 		stack: ['JavaScript', 'Html', 'css'],
 	},
 ];

@@ -16,7 +16,7 @@ const Skills = () => {
             <SectionHeading title="skills" viewLink={false} url="https://example.com" />
             <div className="skills_snippet">
                 <RenderColumns items={skills} />
-                <div className="skills__images"></div>
+                {/* <div className="skills__images"></div> */}
             </div>
         </section>
     )
