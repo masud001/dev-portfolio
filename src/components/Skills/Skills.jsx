@@ -3,13 +3,12 @@ import './skills.css';
 import RenderColumns from './RenderColumns';
 import SectionHeading from '../SectionHeading/SectionHeading';
 import skillsSet from '../../data/skills'
+import { ReactComponent as IconImage } from '../../assets/image/skillsimg/logo.svg';
+import { ReactComponent as Frame } from '../../assets/image/skillsimg/frame.svg';
+import { ReactComponent as RectengleOne } from '../../assets/image/skillsimg/rectangle.svg';
 const Skills = () => {
     // Example usage
     const skills = skillsSet;
-    // console.log("🚀 ~ file: Skills.jsx:9 ~ Skills ~ skills:", skills);
-    // const items = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5', 'Item 6'];
-
-
 
     return (
         <section className='skills__wrapper'>
@@ -17,7 +16,21 @@ const Skills = () => {
             <div className="skills_snippet">
                 <RenderColumns items={skills} />
                 <div className="skills__images">
-                    <img src="https://via.placeholder.com/400" alt="skill set" />
+                    <span>
+                        <Frame />
+                    </span>
+                    <span>
+                        <IconImage />
+                    </span>
+                    <span>
+                        <RectengleOne />
+                    </span>
+                    <span>
+                        <Frame />
+                    </span>
+                    <span>
+                        <RectengleOne />
+                    </span>
                 </div>
             </div>
         </section>

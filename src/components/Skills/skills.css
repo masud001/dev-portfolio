@@ -1,11 +1,16 @@
 .skills__wrapper{
     width: 80%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 .skills_snippet{
     display: flex;
     column-gap: 1rem;
     flex-wrap: wrap;
+    flex: 1 2;
+    -webkit-flex-direction: row-reverse;
+        flex-direction: row-reverse;
 }
 .skills__column{
     display: flex;
@@ -52,6 +57,39 @@
     width: clamp(12.25rem, 100%, 25rem);
 }
 
+.skills__images{
+    position: relative;
+    width: 28.125rem;
+}
+.skills__images span:nth-child(1) svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.skills__images span:nth-child(3) svg{
+        position: absolute;
+            top: -10%;
+            right: 25%;
+}
+.skills__images span:nth-child(2) svg{
+position: absolute;
+    bottom: 20%;
+    left: 5%;
+}
+.skills__images span:nth-child(4) svg{
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+.skills__images span:nth-child(5) svg{
+position: absolute;
+    top: 64%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+}
 
 /* Extra small devices (phones,320px ) */
 @media only screen and (max-width: 320px) {}
