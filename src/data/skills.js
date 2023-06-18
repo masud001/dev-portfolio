@@ -23,14 +23,6 @@ const skills = [
 		title: 'language-06',
 		stack: ['JavaScript', 'Html', 'css'],
 	},
-	{
-		title: 'language-07',
-		stack: ['JavaScript', 'Html', 'css'],
-	},
-	{
-		title: 'language-08',
-		stack: ['JavaScript', 'Html', 'css'],
-	},
 ];
 
 export default skills;
