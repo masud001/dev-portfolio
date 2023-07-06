@@ -1,0 +1,37 @@
+.skills__list-item {
+    border: 1px solid var(--gray-color);
+    width: clamp(12.25rem, 100%, 25rem);
+}
+.skill__title h6 {
+    padding: .5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--white-color);
+    text-transform: capitalize;
+    border-bottom: 1px solid var(--gray-color);
+}
+.skills__lists {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    padding: .5rem;
+}
+
+.skills__lists span {
+    color: var(--gray-color);
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.skills__lists span::after {
+    position: absolute;
+    content: ",";
+    color: var(--primary-color);
+}
+
+.skills__lists span:last-child:after {
+    content: "";
+}

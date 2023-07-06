@@ -1,16 +1,20 @@
 import React from 'react'
+import './sskill.css'
 
-const SIngleSkill = () => {
+
+const SingleSkill = ({ title = "Title", data }) => {
+    console.log('data : ', data)
     return (
-        <li className={`skills__list-item`}>
+        <div className={`skills__list-item`}>
             <div className="skill__title">
-                <h6>title</h6>
+                <h6>{title}</h6>
             </div>
             <div className="skills__lists">
-                <span>javaScript, html, css, js</span>
+                {data && data.map((item, index) => <span key={index}>{item}</span>)}
+
             </div>
-        </li>
+        </div>
     )
 }
 
-export default SIngleSkill
+export default SingleSkill

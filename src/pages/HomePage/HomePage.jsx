@@ -3,6 +3,7 @@ import Hero from '../../components/Hero/Hero';
 import Quote from '../../components/Quote/Quote';
 import Projects from '../../components/Projects/Projects';
 import Skills from '../../components/Skills/Skills';
+import SingleSkill from '../../components/Skills/SingleSkill';
 
 const HomePage = () => {
 
@@ -30,6 +31,7 @@ const HomePage = () => {
 			{/* skills section END 
 			======================== */}
 			<section>
+				<SingleSkill title="javaScript title" data={["masud", "saru", "janina"]} />
 				<h1>about me section</h1>
 			</section>
 			<section>
