@@ -31,7 +31,7 @@ const HomePage = () => {
 			{/* skills section END 
 			======================== */}
 			<section>
-				<SingleSkill title="javaScript title" data={["masud", "saru", "janina"]} />
+				{/* <SingleSkill title="javaScript title" data={["masud", "saru", "janina"]} /> */}
 				<h1>about me section</h1>
 			</section>
 			<section>

@@ -13,6 +13,7 @@ const RenderColumns = ({ items }) => {
 
         let title = items[i].title
         let stake = items[i].stack.map((item) => item)
+        columns[currentColumn - 1].push(<SingleSkill title={title} data={stake} key={i} />);
 
         // columns[currentColumn - 1].push(
         //     <li key={i} className={`skills__list-item`}>
@@ -24,7 +25,6 @@ const RenderColumns = ({ items }) => {
         //         </div>
         //     </li>
         // );
-        columns[currentColumn - 1].push(<SingleSkill title={title} data={stake} key={items[i] * Math.random() * 100} />);
 
         // console.log("Array", items[i])
 
@@ -37,9 +37,9 @@ const RenderColumns = ({ items }) => {
     }
 
     return columns.map((column, index) => (
-        <ul key={index} className="skills__column">
+        <div key={index} className="skills__column">
             {column}
-        </ul>
+        </div>
     ));
 
 
