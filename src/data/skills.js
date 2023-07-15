@@ -17,7 +17,7 @@ const skills = [
 	},
 	{
 		title: 'language-05',
-		stack: ['JavaScript', 'Html', 'css'],
+		stack: ['JavaScript', 'Html', 'css', 'tailWindCSS'],
 	},
 	{
 		title: 'language-06',

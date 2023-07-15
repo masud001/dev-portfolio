@@ -3,7 +3,6 @@ import Hero from '../../components/Hero/Hero';
 import Quote from '../../components/Quote/Quote';
 import Projects from '../../components/Projects/Projects';
 import Skills from '../../components/Skills/Skills';
-import SingleSkill from '../../components/Skills/SingleSkill';
 
 const HomePage = () => {
 
@@ -11,7 +10,10 @@ const HomePage = () => {
 		<>
 			{/* hero section for home page START
 			==================================== */}
+
 			<Hero />
+
+
 			{/* hero section for home page END
 			==================================== */}
 
@@ -27,6 +29,7 @@ const HomePage = () => {
 			=========================*/}
 			{/* skills section START 
 			======================== */}
+
 			<Skills />
 			{/* skills section END 
 			======================== */}
