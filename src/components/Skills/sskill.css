@@ -1,6 +1,6 @@
 .skills__list-item {
     border: 1px solid var(--gray-color);
-    width: clamp(12.25rem, 100%, 25rem);
+    /* width: clamp(12.25rem, 100%, 25rem); */
 }
 .skill__title h6 {
     padding: .5rem;

@@ -14,9 +14,10 @@ const Skills = () => {
         <section className='skills__wrapper'>
             <SectionHeading title="skills" viewLink={false} url="https://example.com" />
             <div className="skills_snippet">
+                <div className="items_column"></div>
+                <div className="items_column"></div>
 
-
-                <div className="skills__images">
+                {/* <div className="skills__images">
                     <span>
                         <Frame />
                     </span>
@@ -32,10 +33,11 @@ const Skills = () => {
                     <span>
                         <RectengleOne />
                     </span>
-                </div>
+                </div> */}
+
 
                 <div className="skills__area">
-                    <RenderColumns items={skills} />
+                    {/* <RenderColumns items={skills} /> */}
                 </div>
 
             </div>
