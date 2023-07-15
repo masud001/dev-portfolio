@@ -6,11 +6,17 @@
 }
 .skills_snippet{
     display: flex;
-    column-gap: 1rem;
+    /* column-gap: 1rem;
     flex-wrap: wrap;
     flex: 1 2;
     -webkit-flex-direction: row-reverse;
-        flex-direction: row-reverse;
+        flex-direction: row-reverse; */
+}
+.skills__area{
+display: flex;
+column-gap: 1rem;
+flex-direction: row-reverse;
+flex-wrap: wrap;
 }
 .skills__column{
     display: flex;
