@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom'
 const Button = ({ title, url = "/#", isIcon, icon }) => {
 
     const btnIcon = isIcon ? <span className='button_icon'>{icon}</span> : null
+
     return (
         <React.Fragment>
             <NavLink to={url} className="theme_button">

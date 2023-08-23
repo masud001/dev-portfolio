@@ -18,9 +18,6 @@ const Skills = () => {
                 <div className="items_column skills_items">
                     <RenderColumns items={skills} />
                 </div>
-
-
-
             </div>
         </section>
     )

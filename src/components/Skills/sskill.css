@@ -1,6 +1,5 @@
 .skills__list-item {
     border: 1px solid var(--gray-color);
-    /* width: clamp(12.25rem, 100%, 25rem); */
 }
 .skill__title h6 {
     padding: .5rem;
@@ -35,3 +34,27 @@
 .skills__lists span:last-child:after {
     content: "";
 }
+
+
+/* Extra small devices (phones,320px ) */
+@media only screen and (max-width: 320px) {}
+
+@media only screen and (min-width: 320px) {}
+
+@media only screen and (min-width: 480px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (min-width: 769px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (max-width: 1300px) {}

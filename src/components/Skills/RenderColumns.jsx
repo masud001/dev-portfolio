@@ -15,19 +15,6 @@ const RenderColumns = ({ items }) => {
         let stake = items[i].stack.map((item) => item)
         columns[currentColumn - 1].push(<SingleSkill title={title} data={stake} key={i} />);
 
-        // columns[currentColumn - 1].push(
-        //     <li key={i} className={`skills__list-item`}>
-        //         <div className="skill__title">
-        //             <h6>{items[i].title}</h6>
-        //         </div>
-        //         <div className="skills__lists">
-        //             {items[i].stack.map((item, index) => <span key={index}>{item}</span>)}
-        //         </div>
-        //     </li>
-        // );
-
-        // console.log("Array", items[i])
-
         if (currentColumn === columnSize) {
             columnSize++;
             currentColumn = 1;
