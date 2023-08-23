@@ -10,10 +10,7 @@ const HomePage = () => {
 		<>
 			{/* hero section for home page START
 			==================================== */}
-
 			<Hero />
-
-
 			{/* hero section for home page END
 			==================================== */}
 
@@ -29,7 +26,6 @@ const HomePage = () => {
 			=========================*/}
 			{/* skills section START 
 			======================== */}
-
 			<Skills />
 			{/* skills section END 
 			======================== */}
