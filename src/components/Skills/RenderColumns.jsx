@@ -13,6 +13,7 @@ const RenderColumns = ({ items }) => {
 
         let title = items[i].title
         let stake = items[i].stack.map((item) => item)
+
         columns[currentColumn - 1].push(<SingleSkill title={title} data={stake} key={i} />);
 
         if (currentColumn === columnSize) {

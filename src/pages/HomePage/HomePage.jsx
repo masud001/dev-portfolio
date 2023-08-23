@@ -4,6 +4,7 @@ import Quote from '../../components/Quote/Quote';
 import Projects from '../../components/Projects/Projects';
 import Skills from '../../components/Skills/Skills';
 import About from '../../components/About/About';
+import Contact from '../../components/Contact/Contact';
 
 const HomePage = () => {
 
@@ -34,14 +35,11 @@ const HomePage = () => {
 			{/* about section START */}
 			<About />
 			{/* about section END */}
-			<section>
-				{/* <SingleSkill title="javaScript title" data={["masud", "saru", "janina"]} /> */}
-				<h1>about me section</h1>
-			</section>
 
-			<section>
-				<h1>contact section</h1>
-			</section>
+			{/* contact section START  */}
+			<Contact />
+			{/* contact section END */}
+
 		</>
 	);
 };
