@@ -15,7 +15,6 @@ const Contact = () => {
                     </div>
                     <div className="contact__address">
                         <RenderContacts items={contacts} />
-                        {/* <RenderColumns items={contacts} /> */}
                     </div>
                 </div>
             </div>
