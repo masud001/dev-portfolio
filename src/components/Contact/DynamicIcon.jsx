@@ -1,5 +1,5 @@
 import React from 'react'
-import { PiPhoneCallThin, PiEnvelopeThin, PiMapPinThin } from 'react-icons/pi';
+import { PiPhoneCallThin, PiEnvelopeThin, PiMapPinThin, PiHouseLineThin, PiOfficeChairThin } from 'react-icons/pi';
 const DynamicIcon = ({ dataType }) => {
     let icon = null;
     switch (dataType) {
@@ -12,6 +12,12 @@ const DynamicIcon = ({ dataType }) => {
         case 'address':
             icon = <PiMapPinThin />;
             break;
+        case 'home':
+            icon = <PiHouseLineThin />;
+            break;
+        case 'office':
+            icon = <PiOfficeChairThin />;
+            break;
         // Add more cases as needed
 
         default:
@@ -20,7 +26,7 @@ const DynamicIcon = ({ dataType }) => {
             break;
     }
     return (
-        <span>{icon}</span>
+        <span className='icon'>{icon}</span>
     )
 }
 

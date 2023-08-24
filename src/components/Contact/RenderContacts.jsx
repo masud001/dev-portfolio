@@ -12,9 +12,11 @@ const RenderContacts = ({ items }) => {
         }
 
         let title = items[i].title;
-        let addresses = items[i].address.map(item => <div key={i}>
-            <p> <DynamicIcon dataType="email" />  <span>{item.email}</span> </p>
-            <p> <DynamicIcon dataType="phone" /> <span>{item.phone}</span> </p>
+        let addresses = items[i].address.map(item => <div className='contact_lists_items' key={i}  >
+            <p> <DynamicIcon dataType="email" />  <span className='contact__item'>{item.email}</span> </p>
+            <p> <DynamicIcon dataType="phone" /> <span className='contact__item'>{item.phone}</span> </p>
+            <p> <DynamicIcon dataType="home" /> <span className='contact__item'>{item.home}</span> </p>
+            <p> <DynamicIcon dataType="office" /> <span className='contact__item'>{item.office}</span> </p>
         </div>);
 
         columns[currentColumn - 1].push(
