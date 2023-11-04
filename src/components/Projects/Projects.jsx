@@ -18,8 +18,6 @@ const Projects = () => {
                     description={data.description}
                     links={data.links}
                 />)}
-
-
             </div>
         </section>
     )

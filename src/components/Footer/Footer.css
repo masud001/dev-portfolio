@@ -17,6 +17,10 @@
 .footer_right{
     flex: 1;
 }
+.footer_right h6{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
 .footer_logo{
     display: flex;
     align-items: center;
@@ -24,6 +28,7 @@
 }
 .footer_logo h6{
     font-size: 1.5rem;
+    text-transform: capitalize;
 }
 .footer_logo span svg{
     width: 1.5rem;
