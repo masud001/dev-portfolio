@@ -2,7 +2,6 @@ import React from 'react'
 import DynamicIcon from './DynamicIcon';
 
 const RenderContacts = ({ items }) => {
-    console.log("🚀 ~ file: RenderContacts.jsx:4 ~ RenderContacts ~ items:", items);
     let columnSize = 1;
     let currentColumn = 1;
     let columns = [];

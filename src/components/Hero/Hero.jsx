@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import profileImage from './masud-profile-image.png'
 import { ReactComponent as ProfileOverlayLogoIcon } from './Logo.svg';
 import { ReactComponent as ProfileOverlayDotIcon } from './Dots.svg';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import './Hero.css'
 import Button from '../Button/Button';
 
@@ -17,7 +18,8 @@ const Hero = () => {
             <div className="hero_section-image">
                 <span className='hero_overlay-one'>{<ProfileOverlayLogoIcon />}</span>
                 <span className='hero_overlay-two'>{<ProfileOverlayDotIcon />}</span>
-                <img src={profileImage} alt="masudur rahman front-end developer profile" />
+                {/* <img src={profileImage} alt="masudur rahman front-end developer profile" loading="lazy" /> */}
+                <LazyLoadImage src={profileImage} alt="masudur rahman front-end developer profile" />
                 <h6>Currently working on <span><NavLink to="/#">Portfolio</NavLink></span></h6>
             </div>
         </section>
